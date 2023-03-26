@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(40, 20, 20) ;
+}
+.restart{
+   background-color: white;
+    font-size: 22px;
+    /* width: 100px;
+    height: 100px; */
+    text-align: center;
+    vertical-align: center;
+    padding: 26px;
+}
+.range
+{
+    font-size: 22px;
+    /* width: 100px;
+    height: 100px; */
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-size: 34px;
+}
+.section--1{
+    display: flex;
+    justify-content: space-between;
+}
+.break{
+margin-top: 100px;
+height: 20px;
+background-color: white;
+}
+.guessbox{
+background-color: white;
+width: 200px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 70px;
+position: absolute;
+left: 43%;
+top: 160px;
+}
+.guesstext{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.input-section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.input-check{
+    display: flex;
+    flex-direction: column;
+}
+.guess-print{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.guess-msg{
+    font-size: 50px;
+}
+.msg-chances{
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+.input{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 4px solid #eee;
+}
+.check{
+    margin-top: 50px;
+    width: 120px;
+    height: 70px;
+    margin-left: 50px;
+    font-size: 18px;
+}
